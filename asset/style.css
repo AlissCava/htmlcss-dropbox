@@ -24,7 +24,7 @@
     border: 2px solid black;
 }
 
-#UpJ{
+.Up{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,14 +50,14 @@ h1{
     font-size: 50px;
 }
 
-#DownJ{
+.Down{
     display: flex;
     justify-content: center;
     align-items: center;
     /* debug */
     width: 100vw;
     min-height: 300px;
-    background-color: lightcoral;
+    background-color: lightblue;
 }
 
 .paragrafo{
@@ -75,3 +75,41 @@ h1{
     background-color: lemonchiffon;
     border: 2px solid black;
 }
+
+.n2U{
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* debug */
+    width: 100vw;
+    height: 100px;
+    background-color: gainsboro;
+}
+
+h2{
+    margin-top: 5%;
+    margin-right: 15%;
+    font-size: 2rem;
+}
+
+.n2D{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    align-items: flex-start;
+
+    background-color: gainsboro;
+    height: 700px;
+    width: 100%;
+
+}
+
+.colonna{
+    /* debug */
+    margin: 15px;
+    width: 15%;
+    height: 600px;
+    background-color: white;
+    border: 1px solid black;
+}
+
