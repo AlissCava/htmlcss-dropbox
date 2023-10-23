@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    height: 50px;
+    width: 100vw;
+    background-color: lightcyan;
+    border: 1px solid black;
+}
+
+.minnav{
+    margin: 10px;
+    /* debug */
+    height: 30px;
+    width: 30vw;
+    background-color: aqua;
+    border: 1px solid black;
+}
