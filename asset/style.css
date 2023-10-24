@@ -68,6 +68,11 @@ h1{
     border: 2px solid black;
 }
 
+.fa-arrow-down{
+    margin: 10px;
+    font-size: 40px;
+}
+
 .immagine{
     margin-bottom: -50px;
     width: 35%;
@@ -154,11 +159,12 @@ h2{
     border: 2px solid black;
 }
 
-.Mh2, .Mp{
+.Mh2, .par{
     margin: 10px;
 }
 
 .bottone{
+    text-align: center;
     padding: 10px;
     margin: 10px;
     color: white;
@@ -360,4 +366,55 @@ a{
     width: 100%;
     height: 50px;
     background-color: rgb(148, 246, 246);
+}
+
+footer{
+    color: white;
+    background-color: black;
+}
+
+.footUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+.footriga{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+
+.footCOL{
+    background-color: black;
+    height: 100px;
+}
+
+
+.footDown{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    background-color: black;
+}
+
+#hrfoot{
+    width: 80px;
+}
+
+#footD{
+    width: 70%;
+    height: 100px;
+    background-color: white;
+    background-color: black;
+}
+
+#lingua{
+    padding-top: 20px;
 }
