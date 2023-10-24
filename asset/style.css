@@ -248,3 +248,37 @@ h3{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.n6U{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* debug */
+    max-height: 100px;
+    background-color: rgb(255, 223, 163);
+}
+
+#US6{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.subS6{
+    width: 70%;
+    /* margin-left: 100px; */
+}
+
+#link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    max-height: 40px;
+    background-color: rgb(255, 223, 163);
+}
+
+a{
+    width: 50%;
+}
