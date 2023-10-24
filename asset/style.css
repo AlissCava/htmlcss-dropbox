@@ -99,7 +99,7 @@ h2{
     align-items: flex-start;
 
     background-color: gainsboro;
-    height: 700px;
+    height: 650px;
     width: 100%;
 
 }
@@ -113,3 +113,102 @@ h2{
     border: 1px solid black;
 }
 
+.n3U{
+    padding-top: 20px;
+    max-height: 50px;
+    background-color: lightseagreen;
+}
+
+.Mid{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* debug */
+    width: 100%;
+    height: 100px;
+    background-color: lightseagreen;
+}
+
+
+#team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    height: 30px;
+    width: 50%;
+    background-color: lightgreen;
+    border: 2px solid black;
+}
+
+#midi{
+    /* margin-top: -10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* debug */
+    min-height: 100px;
+    width: 50%;
+    background-color: lightgreen;
+    border: 2px solid black;
+}
+
+.Mh2, .Mp{
+    margin: 10px;
+}
+
+.bottone{
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: blue;
+}
+
+.n3D{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: flex-start;
+    /* debug */
+    background-color: lightseagreen;
+}
+
+.p3{
+    width: 50%;
+    height: 40px;
+    text-align: left;
+    /* debug */
+    background-color: lightgreen;
+}
+
+#par3{
+    margin-left: 10px;
+    width: 70%;
+}
+
+#sezione4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    min-height: 500px;
+    background-color: palevioletred;
+}
+
+.n4{
+    height: 300px;
+}
+
+.imgn4{
+    height: 400px;
+}
+
+.b4{
+    margin-top:20px;
+    padding: 5px;
+    padding-right: 2px;
+    width: 40%;
+    color: gray;
+    background-color: white;
+}
