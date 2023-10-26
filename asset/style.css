@@ -12,7 +12,6 @@
     /* debug */
     height: 50px;
     width: 100vw;
-    background-color: lightcyan;
 }
 
 .minnav{
@@ -20,8 +19,22 @@
     /* debug */
     height: 30px;
     width: 30vw;
-    background-color: aqua;
-    border: 2px solid black;
+}
+
+.spanNAV{
+    margin-left: 10px;
+}
+
+.logo{
+    width: 70px;
+}
+
+.bottone{
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(34, 102, 196);
 }
 
 .Up{
@@ -31,19 +44,17 @@
     /* debug */
     width: 100vw;
     height: 200px;
-    background-color: lightblue;
+}
+
+.n1U{
+    background-color: rgb(173, 203, 230);
 }
 
 #BigTitle{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* debug */
-    /* debug */
     width: 60%;
-    /* min-height: 100px; */
-    background: lightsteelblue;
-    border: 2px solid black;
 }
 
 h1{
@@ -56,16 +67,17 @@ h1{
     align-items: center;
     /* debug */
     width: 100vw;
-    min-height: 300px;
-    background-color: lightblue;
+    height: 300px;
+}
+
+.n1D{
+    background-color: rgb(173, 203, 230);
 }
 
 .paragrafo{
     /* debug */
     width: 25%;
     height: 250px;
-    background-color: lightsalmon;
-    border: 2px solid black;
 }
 
 .fa-arrow-down{
@@ -74,21 +86,18 @@ h1{
 }
 
 .immagine{
-    margin-bottom: -50px;
     width: 35%;
     min-height: 300px;
-    background-color: lemonchiffon;
-    border: 2px solid black;
+}
+
+#Jumbooimg{
+    width: 500px;
 }
 
 .n2U{
-    /* display: flex;
-    justify-content: center; */
-    /* align-items: center; */
-    /* debug */
+
     width: 100vw;
     height: 100px;
-    background-color: gainsboro;
 }
 
 h2{
@@ -98,12 +107,7 @@ h2{
 }
 
 .n2D{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     align-items: flex-start;
-
-    background-color: gainsboro;
     height: 650px;
     width: 100%;
 
@@ -112,16 +116,56 @@ h2{
 .colonna{
     /* debug */
     margin: 15px;
-    width: 16%;
+    width: 17%;
     height: 600px;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid rgb(198, 198, 198);
+}
+
+
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(198, 198, 198);
+    /* debug */
+    height: 30px;
+    /* width: 50%; */
+    margin-bottom: -20px;
+}
+
+
+.teamS2{
+    width: 100%;
+}
+
+.lista{
+    margin-top: 20px;
+    margin: 10px;
+}
+
+.li, .S2B{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fa-check{
+    color: blue;
+    margin-right: 10px;
+}
+
+.hrS2{
+    width: 30%;
 }
 
 .n3U{
+    background-color: white;
     padding-top: 20px;
     max-height: 50px;
-    background-color: lightseagreen;
+}
+
+.teamS3{
+    width: 50%;
 }
 
 .Mid{
@@ -131,21 +175,8 @@ h2{
     /* debug */
     width: 100%;
     height: 100px;
-    background-color: lightseagreen;
 }
 
-
-#team{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* debug */
-    height: 30px;
-    width: 50%;
-    background-color: lightgreen;
-    border: 2px solid black;
-}
 
 #midi{
     /* margin-top: -10px; */
@@ -155,20 +186,10 @@ h2{
     /* debug */
     min-height: 100px;
     width: 50%;
-    background-color: lightgreen;
-    border: 2px solid black;
 }
 
 .Mh2, .par{
     margin: 10px;
-}
-
-.bottone{
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    color: white;
-    background-color: blue;
 }
 
 .n3D{
@@ -177,7 +198,6 @@ h2{
     height: 60px;
     align-items: flex-start;
     /* debug */
-    background-color: lightseagreen;
 }
 
 .p3{
@@ -185,7 +205,6 @@ h2{
     height: 40px;
     text-align: left;
     /* debug */
-    background-color: lightgreen;
 }
 
 #par3{
@@ -199,7 +218,6 @@ h2{
     align-items: center;
     /* debug */
     min-height: 500px;
-    background-color: palevioletred;
 }
 
 .n4{
@@ -208,7 +226,10 @@ h2{
 
 .imgS4{
     width: 30%;
-    height: 400px;
+}
+
+#partenerimg{
+    max-width: 100%;
 }
 
 .b4{
@@ -218,16 +239,19 @@ h2{
     width: 40%;
     color: gray;
     background-color: white;
+    border: 1px solid gray;
 }
 
 .n5U{
     margin-top: 0%;
     height: 100px;
-    background-color:  antiquewhite;
+    background-color: white;
+    /* background-color:  antiquewhite; */
 }
 
 .S5{
     margin-left: 80px;
+    background-color: white;
 }
 
 .riga{
@@ -235,24 +259,27 @@ h2{
     justify-content: center;
     align-items: center;
     /* debug */
-    min-height: 420px;
-    background-color: antiquewhite;
+    /* min-height: 420px;
+    background-color: antiquewhite; */
 }
 
 .colonnaS5{
     height: 400px;
 }
 
-.imgS5{
+.pS5{
+    margin-left: 10px;
+}
+
+.featureIMG{
     width: 100%;
-    height: 180px;
-    background-color: lemonchiffon;
 }
 
 h3{
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .n6U{
@@ -261,7 +288,7 @@ h3{
     align-items: flex-start;
     /* debug */
     max-height: 100px;
-    background-color: rgb(255, 223, 163);
+    background-color: white;
 }
 
 #US6{
@@ -282,7 +309,7 @@ h3{
     align-items: center;
     /* debug */
     max-height: 40px;
-    background-color: rgb(255, 223, 163);
+    background-color: white;
 }
 
 a{
@@ -325,20 +352,25 @@ a{
 }
 
 .S6D{
+    margin-top: -100px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 150px;
-    background-color: cornflowerblue;
+    height: 200px;
+    background-color: lightsteelblue;
 }
 
 .S6{
     width: 70%;
+    color: rgb(77, 1, 39);
 }
 
 .S6B{
+    color: gray;
     width: 180px;
+    background-color: white;
+    border: 1px solid gray;
 }
 
 #sezione7{
@@ -346,13 +378,11 @@ a{
     justify-content: center;
     width: 100%;
     min-height: 300px;
-    background-color: aquamarine;
 }
 
 .FAQ{
     margin: 10px;
     width: 50%;
-    background-color: darkcyan;
 }
 
 #FAQh2{
@@ -365,7 +395,6 @@ a{
     justify-content: space-between;
     width: 100%;
     height: 50px;
-    background-color: rgb(148, 246, 246);
 }
 
 footer{
@@ -381,7 +410,7 @@ footer{
     background-color: black;
 }
 
-.footriga{    
+.footriga{
     display: flex;
     justify-content: center;
     align-items: center;
