@@ -328,6 +328,7 @@ a{
     margin: 0;
     max-height: 400px;
     width: 35%;
+    border: transparent;
 }
 
 .centro{
@@ -335,6 +336,8 @@ a{
     margin: 0;
     max-height: 400px;
     width: 30%;
+    border: transparent;
+    background-color: rgb(240, 240, 240);
 }
 
 .C1, .C2{
@@ -342,13 +345,56 @@ a{
     width: 50%;
     height: 100%;
     background-color: lightgoldenrodyellow;
+    border: transparent;
 }
 
 .sqr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     margin: 0%;
     width: 100%;
     height: 50%;
     background-color: lightcyan;
+}
+
+.foto{
+    width: 50%;
+}
+
+.f1{
+    background-color: rgb(106, 171, 106);
+}
+
+.f2{
+    background-color: deepskyblue;
+}
+
+.f3{
+    background-color: brown;
+}
+
+.f4, .f5{
+    background-color: red;
+}
+
+.f6{
+    background-color: rgb(7, 52, 137);
+}
+
+.f7{
+    background-color: lightsteelblue;
+}
+
+.f8{
+    background-color: rgb(244, 207, 60);
+}
+
+.centrofoto, .centropar{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .S6D{
